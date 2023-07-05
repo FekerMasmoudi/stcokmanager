@@ -1,0 +1,31 @@
+{
+  "changelogDate": "20230705094523",
+  "clientRootFolder": "articlesdb",
+  "databaseType": "mongodb",
+  "dto": "mapstruct",
+  "fields": [
+    {
+      "fieldName": "name",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "price",
+      "fieldType": "Double"
+    },
+    {
+      "fieldName": "quantity",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "idcategory",
+      "fieldType": "String"
+    }
+  ],
+  "microserviceName": "articlesdb",
+  "name": "Article",
+  "pagination": "pagination",
+  "readOnly": false,
+  "relationships": [],
+  "service": "serviceClass"
+}
